@@ -1,0 +1,101 @@
+{
+  "tools": [
+    {
+      "name": "Java",
+      "link": "https://www.java.com/en/",
+      "imgLink": "https://i.pinimg.com/564x/79/5e/bb/795ebb5f4a470cd7242136237f61fc53.jpg"
+    },
+    {
+      "name": "React.js",
+      "link": "https://react.dev/",
+      "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+    },
+    {
+      "name": "JavaScript",
+      "link": "https://en.wikipedia.org/wiki/JavaScript",
+      "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/WHATWG_JavaScript_logo.svg/1024px-WHATWG_JavaScript_logo.svg.png"
+    },
+    {
+      "name": "C",
+      "link": "https://en.wikipedia.org/wiki/C_(programming_language)",
+      "imgLink": "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
+    },
+    {
+      "name": "Gitlab API",
+      "link": "https://docs.gitlab.com/ee/api/",
+      "imgLink": "https://cdn.worldvectorlogo.com/logos/gitlab-3.svg"
+    },
+    {
+      "name": "Visual Studio Code",
+      "link": "https://code.visualstudio.com/",
+      "imgLink": "https://cdn.worldvectorlogo.com/logos/visual-studio-code-1-1.svg"
+    },
+    {
+      "name": "AWS",
+      "link": "https://aws.amazon.com/amplify/?trk=66d9071f-eec2-471d-9fc0-c374dbda114d&sc_channel=ps&s_kwcid=AL!4422!3!646025317188!e!!g!!aws%20amplify&ef_id=EAIaIQobChMIgZXeodLN_QIV2WxvBB2AfAuzEAAYASAAEgKr8vD_BwE:G:s&s_kwcid=AL!4422!3!646025317188!e!!g!!aws%20amplify",
+      "imgLink": "https://static-00.iconduck.com/assets.00/aws-icon-1024x1024-runl182z.png"
+    },
+    {
+      "name": "MUI",
+      "link": "https://mui.com/core/",
+      "imgLink": "https://mui.com/static/logo.png"
+    },
+    {
+      "name": "SQL",
+      "link": "https://en.wikipedia.org/wiki/SQL",
+      "imgLink": "https://banner2.cleanpng.com/20180526/oqt/kisspng-microsoft-sql-server-mysql-database-logo-5b098c6ebad6d7.7316225815273524307653.jpg"
+    },
+    {
+      "name": "PostgreSQL",
+      "link": "https://wiki.postgresql.org/wiki/Logo",
+      "imgLink": "https://cdn.icon-icons.com/icons2/2415/PNG/512/postgresql_plain_wordmark_logo_icon_146390.png"
+    },
+    {
+      "name": "MongoDB",
+      "link": "https://en.wikipedia.org/wiki/File:MongoDB_Logo.svg",
+      "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/1024px-MongoDB_Logo.svg.png"
+    },
+    {
+      "name": "JHipster",
+      "link": "https://www.jhipster.tech/artwork/",
+      "imgLink": "https://www.jhipster.tech/jhipster-artwork/logos/JHipster%20bowtie%20-%20square.png"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Character Customization application",
+      "description": "Create an avatar app from a free library of illustrations that allow users to choose from different options like face, hair, clothes.... using HTML, CSS and React.",
+      "repoLink": "https://github.com/tracytrle/character-customization-app.git",
+      "link": "https://character-customization-app0703.netlify.app/",
+      "imageUrl": "/character.png"
+    },
+    {
+      "name": "Movie application",
+      "description": "Developed a movie app using React, integrated the app with third-party APIs to fetch movie data, including details, ratings, and reviews. Implemented search and filtering functionalities to allow users to discover movies based on various genres.",
+      "repoLink": "https://github.com/tracytrle/movie-app.git",
+      "link": "https://movie-app-0727.netlify.app/",
+      "imageUrl": "/movie.png"
+    },
+    {
+      "name": "Music generation",
+      "description": "Implemented a deep learning model using Long Short-Term Memory (LSTM) networks to generate classical music compositions in MIDI format. Constructed and trained the neural network using TensorFlow and Keras. The project successfully generated music using a dataset comprising 20 to 100 MIDI files.",
+      "repoLink": "https://github.com/tracytrle/music_gen",
+      "imageUrl": "/music.png"
+    },
+    {
+      "name": "Potholes Database Management",
+      "description": "Designed and implemented a new database for the Austin Department of Public Works' Pothole Tracking and Repair System (PTRS) on an AWS PostgreSQL instance. Developed a web-based system for interactive data entry and queries to log and manage pothole reports. Created a schema to store detailed information on pothole locations, sizes, repair priorities, work orders, and associated property damage records. ",
+      "repoLink": "https://gitlab.com/tructran2/dataman_a3",
+      "imageUrl": "/pothole.png"
+    }
+  ],
+  "education": {
+    "year": "2021 - 2024",
+    "school": "The University of Texas at Austin, Austin, TX",
+    "degree": "Bachelor of Science in Computer Science, GPA 3.69",
+    "courseworks": "Data Structure, Algorithms and Complexity, Operating System, Data Mining, Data Management, Neural Network, SWE, iOS, Ethical Hacking",
+    "languages": "Proficient in Java; Familiar with C, HTML, CSS, JavaScript, React, SQL, C++",
+    "frameworks": "Visual Code, IntelliJ, Pandas, GitHub, JHipster, Spring Boot, MySQl, PostgreSQL, MongoDB",
+    "platform": "AWS"
+  }
+}
