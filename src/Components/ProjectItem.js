@@ -21,10 +21,8 @@ function ProjectItem(props) {
       <Box mt={4}>
         <Grid container spacing={2}>
           <Grid item xs={6} md={4}>
-            <Typography variant="h4">{project.name}</Typography>
-            <Typography variant="h6" sx={{ mt: "5px" }}>
-              {project.description}
-            </Typography>
+            <Typography variant="h5">{project.name}</Typography>
+            <Typography sx={{ mt: "5px" }}>{project.description}</Typography>
             <Box display="flex" mt={2}>
               <GitHubIcon />
               <Typography ml={2}>
