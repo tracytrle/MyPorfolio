@@ -9,8 +9,8 @@ function Projects() {
   return (
     <Box
       sx={{
-        ml: isLargeScreen ? "20rem" : "2rem",
-        mr: isLargeScreen ? "5rem" : "2rem",
+        ml: isLargeScreen ? "10rem" : "2rem",
+        mr: isLargeScreen ? "10rem" : "2rem",
         justifyContent: "center",
       }}
     >

@@ -97,5 +97,15 @@
     "languages": "Proficient in Java; Familiar with C, HTML, CSS, JavaScript, React, SQL, C++",
     "frameworks": "Visual Code, IntelliJ, Pandas, GitHub, JHipster, Spring Boot, MySQl, PostgreSQL, MongoDB",
     "platform": "AWS"
-  }
+  },
+  "activities": [
+    {
+      "name": "WICS, The University of Texas at Austin, Austin, TX",
+      "duration": "August 2022 – Present"
+    },
+    {
+      "name": "Girls Who Code, The University of Texas at Austin, Austin, TX",
+      "duration": "August 2022 – Present"
+    }
+  ]
 }

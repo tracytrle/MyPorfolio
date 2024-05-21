@@ -2,22 +2,21 @@ import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 import Web from "@mui/icons-material/Web";
-import { Box, Typography, useMediaQuery, Grid, Link } from "@mui/material";
+import { Box, Typography, Grid, Link } from "@mui/material";
 
 function ProjectItem(props) {
   const { project } = props;
 
-  const isLargeScreen = useMediaQuery("(min-width:1024px)");
+  // const isLargeScreen = useMediaQuery("(min-width:1024px)");
   return (
     <Box
-      sx={{
-        ml: isLargeScreen ? "5rem" : "2rem",
-        mr: isLargeScreen ? "5rem" : "2rem",
-        justifyContent: "center",
-        mt: "2rem",
-      }}
+    // sx={{
+    //   ml: isLargeScreen ? "5rem" : "2rem",
+    //   mr: isLargeScreen ? "5rem" : "2rem",
+    //   justifyContent: "center",
+    //   mt: "2rem",
+    // }}
     >
-      {/* <Typography variant="h3">Projects</Typography> */}
       <Box mt={4}>
         <Grid container spacing={2}>
           <Grid item xs={6} md={4}>
@@ -60,7 +59,7 @@ function ProjectItem(props) {
                 backgroundImage: `url(${project.imageUrl})`, // Replace with the path to your image
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                ml: "30px",
+                ml: "50px",
               }}
             ></Box>
           </Grid>

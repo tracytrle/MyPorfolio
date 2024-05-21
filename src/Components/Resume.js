@@ -4,14 +4,15 @@ import Education from "./Education.js";
 import { Box, Typography, useMediaQuery } from "@mui/material";
 import HorizontalLine from "./HorizontalLine.js";
 import TechSkills from "./TechSkills.js";
+import Activites from "./Activites.js";
 
 function Resume() {
   const isLargeScreen = useMediaQuery("(min-width:1024px)");
   return (
     <Box
       sx={{
-        ml: isLargeScreen ? "20rem" : "2rem",
-        mr: isLargeScreen ? "5rem" : "0",
+        ml: isLargeScreen ? "10rem" : "2rem",
+        mr: isLargeScreen ? "10rem" : "2rem",
         justifyContent: "center",
       }}
     >
@@ -33,13 +34,20 @@ function Resume() {
           }}
         />
         <TechSkills />
+        <Typography variant="h5">CAMPUS INVOLVEMENT</Typography>
         <HorizontalLine
           style={{
             borderTop: "2px solid #b2bec3",
             margin: "2px 0",
           }}
         />
-
+        <Activites />
+        <HorizontalLine
+          style={{
+            borderTop: "2px solid #b2bec3",
+            margin: "2px 0",
+          }}
+        />
         <Tools />
       </Box>
     </Box>
