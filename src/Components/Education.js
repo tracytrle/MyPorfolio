@@ -7,19 +7,19 @@ function Education() {
     <Box mt={2} mb={2}>
       <Grid container spacing={2}>
         <Grid item xs={6} md={4}>
-          <Typography variant="h6">{data.education.year}</Typography>
+          <Typography>{data.education.year}</Typography>
         </Grid>
         <Grid item xs={6} md={4}>
-          <Typography variant="h6">{data.education.school}</Typography>
-          <Typography variant="h6">{data.education.degree}</Typography>
+          <Typography>{data.education.school}</Typography>
+          <Typography>{data.education.degree}</Typography>
         </Grid>
       </Grid>
       <Grid container spacing={2} mt={2}>
         <Grid item xs={6} md={4}>
-          <Typography variant="h6">Relevant Courseworks </Typography>
+          <Typography>Relevant Courseworks </Typography>
         </Grid>
         <Grid item xs={6} md={4}>
-          <Typography variant="h6">{data.education.courseworks}</Typography>
+          <Typography>{data.education.courseworks}</Typography>
         </Grid>
       </Grid>
     </Box>

@@ -91,7 +91,7 @@ function MainFooter() {
               marginBottom={0}
             >
               {"Copyright © "}
-              <Link color="inherit">TrucTran</Link> {new Date().getFullYear()}
+              <Link color="inherit">TracyTran</Link> {new Date().getFullYear()}
               {"."}
             </Typography>
           </Grid>

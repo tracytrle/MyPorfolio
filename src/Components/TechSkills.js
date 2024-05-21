@@ -7,26 +7,26 @@ function TechSkills() {
     <Box mt={2} mb={2}>
       <Grid container spacing={2} sx={{ fontSize: "3rem" }}>
         <Grid item xs={6} md={4}>
-          <Typography variant="h6">Languages</Typography>
+          <Typography>Languages</Typography>
         </Grid>
         <Grid item xs={6} md={4}>
-          <Typography variant="h6">{data.education.languages}</Typography>
-        </Grid>
-      </Grid>
-      <Grid container spacing={2} mt={2}>
-        <Grid item xs={6} md={4}>
-          <Typography variant="h6">Tools/Frameworks </Typography>
-        </Grid>
-        <Grid item xs={6} md={4}>
-          <Typography variant="h6">{data.education.frameworks}</Typography>
+          <Typography>{data.education.languages}</Typography>
         </Grid>
       </Grid>
       <Grid container spacing={2} mt={2}>
         <Grid item xs={6} md={4}>
-          <Typography variant="h6">Platform </Typography>
+          <Typography>Tools/Frameworks </Typography>
         </Grid>
         <Grid item xs={6} md={4}>
-          <Typography variant="h6">{data.education.platform}</Typography>
+          <Typography>{data.education.frameworks}</Typography>
+        </Grid>
+      </Grid>
+      <Grid container spacing={2} mt={2}>
+        <Grid item xs={6} md={4}>
+          <Typography>Platform </Typography>
+        </Grid>
+        <Grid item xs={6} md={4}>
+          <Typography>{data.education.platform}</Typography>
         </Grid>
       </Grid>
     </Box>
