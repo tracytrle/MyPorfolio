@@ -94,7 +94,7 @@
     "school": "The University of Texas at Austin, Austin, TX",
     "degree": "Bachelor of Science in Computer Science, GPA 3.69",
     "courseworks": "Data Structure, Algorithms and Complexity, Operating System, Data Mining, Data Management, Neural Network, SWE, iOS, Ethical Hacking",
-    "languages": "Proficient in Java; Familiar with C, HTML, CSS, JavaScript, React, SQL, C++",
+    "languages": "Proficient in Java, JavaScript, SQL; Familiar with C, HTML, CSS, React, Python, C++",
     "frameworks": "Visual Code, IntelliJ, Pandas, GitHub, JHipster, Spring Boot, MySQl, PostgreSQL, MongoDB",
     "platform": "AWS"
   },
@@ -107,5 +107,11 @@
       "name": "Girls Who Code, The University of Texas at Austin, Austin, TX",
       "duration": "September 2022 – Present"
     }
-  ]
+  ],
+  "works": {
+    "name": "CMS Marketing Trading Co., Ltd, Vietnam",
+    "position": "Sales Specialist",
+    "description": "Conducted thorough market research to understand industry trends and acquire new customers, contributing to a targeted sales approach in the personal care industry. Successfully increased annual revenue from $26,000 to $85,000 within two years through strategic sales initiatives and effective client relationship management.",
+    "duration": "2009 - 2014"
+  }
 }
